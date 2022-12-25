@@ -16,6 +16,17 @@
   font-weight: 600;
   cursor: pointer;
   font-size: 14px;
-  border-style: none;
+  border: solid 3px aqua;
   border-radius: 20px;
+}
+.button:hover {
+  background-color: white;
+  color: aqua;
+  border: 3px solid aqua;
+}
+
+.button:focus {
+  background-color: white;
+  color: aqua;
+  border: 1px solid aqua;
 }
