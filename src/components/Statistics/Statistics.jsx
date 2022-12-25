@@ -9,25 +9,25 @@ export const Statistics = ({
   positivePercentage,
 }) => {
   return (
-    <div>
-      <h3 className={css.statName}>
+    <ul>
+      <li className={css.statName}>
         <span className={css.statItem}>Good:</span> {good}
-      </h3>
-      <h3 className={css.statName}>
+      </li>
+      <li className={css.statName}>
         <span className={css.statItem}>Neutral:</span> {neutral}
-      </h3>
-      <h3 className={css.statName}>
+      </li>
+      <li className={css.statName}>
         <span className={css.statItem}>Bad:</span> {bad}
-      </h3>
-      <h3 className={css.statName}>
+      </li>
+      <li className={css.statName}>
         <span className={css.statItem}>Total:</span>
         {total}
-      </h3>
-      <h3 className={css.statName}>
+      </li>
+      <li className={css.statName}>
         <span className={css.statItem}>Positive feedback:</span>
         {positivePercentage}%
-      </h3>
-    </div>
+      </li>
+    </ul>
   );
 };
 Statistics.propTypes = {

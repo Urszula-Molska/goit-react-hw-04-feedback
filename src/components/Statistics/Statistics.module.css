@@ -1,5 +1,11 @@
 .statItem {
   width: 100%;
   margin-right: 10px;
+  margin-left: 11px;
   color: aqua;
+}
+
+.statName {
+  margin-bottom: 10px;
+  font-weight: bold;
 }
