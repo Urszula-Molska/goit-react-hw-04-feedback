@@ -1,0 +1,21 @@
+.feedbackOptions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #010101;
+  gap: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 8px 25px;
+  background-color: aqua;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  border-style: none;
+  border-radius: 20px;
+}
