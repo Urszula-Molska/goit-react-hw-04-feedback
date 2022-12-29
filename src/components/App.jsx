@@ -51,6 +51,9 @@ class App extends Component {
     return (
       <div>
         <Section>
+          <a href="urszula-molska.github.io/goit-react-hw-02-feedback/">
+            urszula-molska.github.io/goit-react-hw-02-feedback
+          </a>
           <a href="https://github.com/Urszula-Molska/goit-react-hw-02-feedback">
             https://github.com/Urszula-Molska/goit-react-hw-02-feedback
           </a>
