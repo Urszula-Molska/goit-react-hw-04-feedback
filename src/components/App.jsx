@@ -52,7 +52,7 @@ class App extends Component {
       <div>
         <Section>
           <a href="https://github.com/Urszula-Molska/goit-react-hw-02-feedback">
-            https://github.com/Urszula-Molska/goit-react-hw-02-feedback/
+            https://github.com/Urszula-Molska/goit-react-hw-02-feedback
           </a>
         </Section>
         <Section title="Please leave feedback">
