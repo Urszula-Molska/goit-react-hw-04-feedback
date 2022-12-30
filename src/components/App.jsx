@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
-import PropTypes from 'prop-types';
 import { Statistics } from './Statistics/Statistics';
 import { Section } from './Section/Section';
 import { Notification } from './Notification/Notification';
@@ -17,19 +16,11 @@ class App extends Component {
     };
   }
 
-  static propTypes = {
-    step: PropTypes.number,
-    initialValue: PropTypes.number,
-  };
-
   handleIncrement = event => {
-    this.setState(prevState => {
-      const { name } = event.target;
-
-      return {
-        [name]: prevState[name] + 1,
-      };
-    });
+    const { name } = event.target;
+    this.setState(prevState => ({
+      [name]: prevState[name] + 1,
+    }));
   };
 
   countTotalFeedback = () => {
